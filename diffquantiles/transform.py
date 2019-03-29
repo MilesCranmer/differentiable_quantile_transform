@@ -1,7 +1,9 @@
 """Contains a differentiable transform for PyTorch"""
 
 import torch
-from interp import interp
+import numpy as np
+from .interp import interp
+
 
 BOUNDS_THRESHOLD = 1e-7
 SQRT2 = float(np.sqrt(2))
